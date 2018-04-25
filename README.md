@@ -13,14 +13,14 @@ An utterly fantastic project starter template for Django 2.0.
 To use this project, follow these steps:
 
 1. Create your working environment.
-2. Install Django (`$ pipenv install django`)
+2. pip install -r requirements
 3. Create a new project using this template
 
 ## Creating Your Project
 
 Using this template to create a new Django app is easy::
 
-    $ django-admin.py startproject --template=https://github.com/heroku/heroku-django-template/archive/master.zip --name=Procfile helloworld
+    $ django-admin.py startproject --template=https://github.com/cpkthompson/heroku-django-template/archive/master.zip --name=Procfile helloworld
 
 (If this doesn't work on windows, replace `django-admin.py` with `django-admin`)
 
